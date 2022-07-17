@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Pacifico&family=Pangolin&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: rgb(241, 238, 247);
+}
+
+button {
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 0.6rem;
+    align-self: center;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    color: aliceblue;
+    font-family: Pangolin;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button1 {
+    background: linear-gradient(to right, #FF5F87, #FB0779);
+    ;
+}
+
+.button1:hover {
+    box-shadow: 0 3px 3px 0 rgb(173, 17, 17);
+    transform: translateY(-10px);
+    background: lavender;
+    border: none;
+    color: rgb(22, 6, 26);
+    font-size: large;
+}
+
+.button2 {
+    border: solid 2px rgb(85, 209, 182);
+}
+
+.button2:hover {
+    transition: ease-in 0.7s;
+    box-shadow: inset 300px 0 0 0 rgb(85, 209, 182);
+    cursor: pointer;
+    color: rgb(11, 11, 15);
+}
+
+.button3 {
+    border: solid 2px rgb(205, 169, 50);
+}
+
+.button3:hover {
+    transition: 0.4s ease-in-out;
+    background: rgb(205, 169, 50);
+    color: rgb(14, 14, 17);
+}
+
+.button4 {
+    border: 2px solid aqua;
+}
+
+.button4:hover {
+    background: transparent;
+    color: aqua;
+
+    box-shadow: 0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 100px #03e9f4;
+}
+
+.button5 {
+    background-color: transparent;
+    border: 3px solid #ed0d54;
+    color: #f8f5f6;
+}
+
+.button5:hover {
+    animation: heartbeat 1s infinite;
+    transition: .3s;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.button6 {
+    border: solid 2px rgb(185, 129, 182);
+    backface-visibility: hidden;
+}
+
+.button6:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 7px -1px #ffffff;
+    transform: translateY(-15%);
+}
