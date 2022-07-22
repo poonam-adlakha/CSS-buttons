@@ -93,17 +93,18 @@ button {
 }
 
 .button5:hover {
-    animation: heartbeat 1s infinite;
+    animation: pulse 1s infinite;
     transition: .3s;
 }
 
-@keyframes heartbeat {
+@keyframes pulse {
     0% {
         transform: scale(1);
     }
 
     60% {
         transform: scale(.9);
+        box-shadow: 10px 10px 0 rgb(214, 28, 78, 0.3);
     }
 
     100% {
