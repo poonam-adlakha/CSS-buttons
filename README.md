@@ -1,4 +1,4 @@
-# CSS-buttons
+# CSS-buttons with hover feature
 
 [Website Link](https://buttons-css.netlify.app/)
 
