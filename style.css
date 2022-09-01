@@ -122,3 +122,22 @@ button {
     box-shadow: 0 6px 7px -1px #ffffff;
     transform: translateY(-15%);
 }
+
+.button7 { 
+    background: #ea0000;
+}
+
+.button7:hover { 
+    animation:  vibrate 100ms ease-in-out;  
+    animation-iteration-count: 7;
+}
+
+
+@keyframes vibrate {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
