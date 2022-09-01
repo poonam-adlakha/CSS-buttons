@@ -2,5 +2,4 @@
 
 [Website Link](https://buttons-css.netlify.app/)
 
-
-![buttons](https://user-images.githubusercontent.com/77884951/181758640-e0d36286-c2a2-4801-b381-a0f10463608c.JPG)
+![css_buttons](https://user-images.githubusercontent.com/77884951/187880226-4dd24fee-fcb6-4e01-9904-982d73301325.PNG)
