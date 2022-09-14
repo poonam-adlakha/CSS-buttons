@@ -78,10 +78,8 @@ button {
 
 .button4:hover {
     color: aqua;
-    box-shadow: 0 0 5px #03e9f4,
-        0 0 25px #03e9f4,
-        0 0 50px #03e9f4,
-        0 0 100px #03e9f4;
+    box-shadow: 3px 3px 20px #03e9f4,
+    3px 2px 20px #03e9f4;
 }
 
 .button5 {
