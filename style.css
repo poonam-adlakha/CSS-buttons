@@ -91,11 +91,11 @@ button {
 }
 
 .button5:hover {
-    animation: pulse 1s infinite;
+    animation: beats 1s infinite;
     transition: .3s;
 }
 
-@keyframes pulse {
+@keyframes beats {
     0% {
         transform: scale(1);
     }
