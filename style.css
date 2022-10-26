@@ -116,7 +116,6 @@ button {
 }
 
 .button6:hover {
-    transform: translateY(-10px);
     box-shadow: 0 6px 7px -1px #ffffff;
     transform: translateY(-15%);
 }
