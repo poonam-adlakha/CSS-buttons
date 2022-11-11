@@ -10,6 +10,7 @@ Created Buttons in CSS with hover feature.
                         <li> Button 5 shows pulse effect </li>
                         <li> Button 6 is raised icon </li>
                         <li> Button 7 is shaky effect </li>
+                        <li> Button 8 is Flip button </li>
                     </ul>
 
 [Website Link](https://buttons-css.netlify.app/)
