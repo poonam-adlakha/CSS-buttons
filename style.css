@@ -140,14 +140,16 @@ button {
 }
 
 .button8 {
-    border:none;
+    border: none;
     width: 8em;
     height: 3.5em;
+    border-radius: 0.6rem;
+    cursor: pointer;
   }
 
 .button8 span {
     background: linear-gradient(#F9629F, #FF69B4);
-    display: block;
+    display: inline-block;
     position: absolute;
     border-radius: 0.6rem;
     width: 8em;
