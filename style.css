@@ -56,7 +56,7 @@ button {
 }
 
 .button2:hover {
-    transition: ease-in 0.7s;
+    transition: ease-in 1s;
     box-shadow: inset 300px 0 0 0 rgb(85, 209, 182);
     cursor: pointer;
     color: rgb(11, 11, 15);
