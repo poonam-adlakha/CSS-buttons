@@ -58,7 +58,6 @@ button {
 .button2:hover {
     transition: ease-in 1s;
     box-shadow: inset 300px 0 0 0 rgb(85, 209, 182);
-    cursor: pointer;
     color: rgb(11, 11, 15);
 }
 
@@ -171,4 +170,41 @@ button {
   }
   .button8:hover span:nth-child(2) {
     transform: rotateY(0deg);
+  }
+
+  .button9 {
+    border: none;
+    width: 8em;
+    height: 3.5em;
+    border-radius: 0.6rem;
+    cursor: pointer;
+  }
+
+  .button9 span {
+    background: #8009b7;
+    display: inline-block;
+    position: absolute;
+    border-radius: 0.6rem;
+    width: 8em;
+    height: 3.5em;
+    transition: all 1s;
+    line-height: 60px;
+    backface-visibility: hidden;
+    text-transform: uppercase;
+    perspective: 300px;
+  }
+
+.button9 span:nth-child(1) {
+    transform: rotateX(0deg);
+  }
+
+  .button9 span:nth-child(2) {
+    transform: rotateX(90deg);
+  }
+  .button9:hover span:nth-child(1) {
+    transform: rotateX(-90deg);
+  }
+  .button9:hover span:nth-child(2) {
+    transform: rotateX(90deg);
+    background: #e70a54;
   }
