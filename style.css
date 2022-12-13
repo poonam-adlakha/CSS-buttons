@@ -187,7 +187,7 @@ button {
     border-radius: 0.6rem;
     width: 8em;
     height: 3.5em;
-    transition: all 1s;
+    transition: all .5s;
     line-height: 60px;
     backface-visibility: hidden;
     text-transform: uppercase;
@@ -199,12 +199,12 @@ button {
   }
 
   .button9 span:nth-child(2) {
-    transform: rotateX(90deg);
+    transform: rotateX(180deg);
   }
   .button9:hover span:nth-child(1) {
     transform: rotateX(-90deg);
   }
   .button9:hover span:nth-child(2) {
-    transform: rotateX(90deg);
+    transform: rotateX(0deg);
     background: #e70a54;
   }
