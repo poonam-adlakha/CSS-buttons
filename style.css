@@ -176,8 +176,8 @@ button {
     border: none;
     width: 8em;
     height: 3.5em;
-    border-radius: 0.6rem;
     cursor: pointer;
+    perspective: 1000px;
   }
 
   .button9 span {
