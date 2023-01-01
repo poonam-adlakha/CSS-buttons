@@ -13,15 +13,24 @@ body {
     height: 80vh;
 }
 
-h3 {
+.container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h3 {
+    position: relative;
+    text-align: center;
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 50px;
+    margin-bottom: 10px;
     color: rgb(241, 238, 247);
 }
 
 button {
+    position: absolute;
     background: transparent;
     box-sizing: border-box;
     border-radius: 0.6rem;
@@ -35,6 +44,15 @@ button {
     font-family: Pangolin;
     font-weight: bold;
     cursor: pointer;
+}
+
+.buttonBox {
+    height: 10em;
+    width: 33.33%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
 }
 
 .button1 {
@@ -208,3 +226,34 @@ button {
     transform: rotateX(0deg);
     background: #e70a54;
   }
+
+  /* MEDIA QUERIES */
+@media (max-width: 700px){
+	.loaderBox{
+		width: 50%;
+	}
+
+	.loaderBox:nth-child(even){
+		background-color: var(--even);
+    }
+
+    .loaderBox:nth-child(odd){
+		background-color: var(--odd);
+    }
+
+}
+
+@media (max-width: 420px){
+	.loaderBox{
+		width: 100%;
+	}
+
+	.loaderBox:nth-child(even){
+		background-color: var(--even)
+	}
+
+	.loaderBox:nth-child(odd){
+		background-color:var(--odd);
+	}
+
+}
