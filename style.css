@@ -227,6 +227,16 @@ button {
     background: #e70a54;
   }
 
+.button10 {
+    background-image: linear-gradient(to right, #b015a8, #beb3bd, #8a03f9);
+    background-size: 400% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.button10:hover {
+    background-position: 100% 0;
+}
+
   /* MEDIA QUERIES */
 @media (max-width: 700px){
 	.loaderBox{
@@ -257,3 +267,4 @@ button {
 	}
 
 }
+
