@@ -3,14 +3,10 @@
 
 body {
     background: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+    overflow: auto;
 }
 
 .container{
-   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,32 +237,31 @@ button {
 
   /* MEDIA QUERIES */
 @media (max-width: 700px){
-	.loaderBox{
+	.buttonBox{
 		width: 50%;
 	}
 
-	.loaderBox:nth-child(even){
+	.buttonBox:nth-child(even){
 		background-color: var(--even);
     }
 
-    .loaderBox:nth-child(odd){
+    .buttonBox:nth-child(odd){
 		background-color: var(--odd);
     }
 
 }
 
 @media (max-width: 420px){
-	.loaderBox{
+	.buttonBox{
 		width: 100%;
 	}
 
-	.loaderBox:nth-child(even){
+	.buttonBox:nth-child(even){
 		background-color: var(--even)
 	}
 
-	.loaderBox:nth-child(odd){
+	.buttonBox:nth-child(odd){
 		background-color:var(--odd);
 	}
 
 }
-
