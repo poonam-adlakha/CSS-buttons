@@ -238,9 +238,9 @@ button {
 }
 
 .button11:hover {
-    background: #03e9f4;
-    box-shadow: 0 0 4px #03e9f4, 0 0 30px #03e9f4, 
-    0 0 40px #03e9f4, 0 0 150px #03e9f4;
+    background: #FB48C4;
+    box-shadow: 0 0 4px #FB48C4, 0 0 30px #FB48C4, 
+    0 0 40px #FB48C4, 0 0 150px #FB48C4;
     border: none;
 }
 
