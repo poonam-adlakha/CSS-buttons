@@ -38,6 +38,7 @@ button {
     font-weight: bold;
     cursor: pointer;
     top: 50%;
+    text-transform: uppercase;
 }
 
 .buttonBox {
@@ -47,6 +48,7 @@ button {
     position: relative;
     justify-content: center;
     align-items: center;
+    row-gap: 20px;
 }
 
 .button1 {
@@ -233,6 +235,13 @@ button {
 
 .button10:hover {
     background-position: 100% 0;
+}
+
+.button11:hover {
+    background: #03e9f4;
+    box-shadow: 0 0 4px #03e9f4, 0 0 30px #03e9f4, 
+    0 0 40px #03e9f4, 0 0 150px #03e9f4;
+    border: none;
 }
 
   /* MEDIA QUERIES */
