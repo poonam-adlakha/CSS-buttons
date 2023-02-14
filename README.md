@@ -13,7 +13,7 @@ Created Buttons in CSS with hover feature.
                         <li> Button 8 is Flip button </li>
                         <li> Button 9 is Flip Down button </li>
                         <li> Button 10 is Gradient button </li>
-                        <li> Button 11 is Slide button </li>
+                        <li> Button 11 is Glow Effect button </li>
                     </ul>
 
 [Website Link](https://buttons-css.netlify.app/)
