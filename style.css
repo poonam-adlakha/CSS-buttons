@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Pacifico&family=Pangolin&display=swap");
 
+* {
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+}
 
 body {
     background: black;
@@ -15,11 +20,10 @@ body {
 }
 
 h3 {
-    position: absolute;
-    color: #e1e2ec;
-    font-size: 250%;
+    padding: 50px 0;
+    font-size: 45px;
     text-align: center;
-    top: 0%;
+    color: white;
 }
 
 button {
@@ -42,13 +46,11 @@ button {
 }
 
 .buttonBox {
-    height: 100px;
-    width: 33.33%;
     display: flex;
-    position: relative;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    row-gap: 20px;
+    max-width: 1000px;
+    margin: 10px auto 35px;
 }
 
 .button1 {
@@ -238,9 +240,9 @@ button {
 }
 
 .button11:hover {
-    background: #FB48C4;
-    box-shadow: 0 0 4px #FB48C4, 0 0 30px #FB48C4, 
-    0 0 40px #FB48C4, 0 0 150px #FB48C4;
+    background: #03e9f4;
+    box-shadow: 0 0 4px #03e9f4, 0 0 30px #03e9f4, 
+    0 0 40px #03e9f4, 0 0 150px #03e9f4;
     border: none;
 }
 
